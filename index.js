@@ -19,6 +19,19 @@ app.post("/newpost", (req, res) => {
   res.send("berhasil");
 });
 
+app.post("/newpost", (req, res) => {
+  console.log(req.body);
+  res.send("berhasil");
+});
+app.post("/newpost", (req, res) => {
+  console.log(req.body);
+  res.send("berhasil");
+});
+app.post("/newpost", (req, res) => {
+  console.log(req.body);
+  res.send("berhasil");
+});
+
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
